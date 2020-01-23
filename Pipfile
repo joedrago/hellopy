@@ -1,0 +1,12 @@
+[[source]]
+name = "hellopy"
+url = "https://github.com/joedrago/hellopy"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+cowsay = "*"
+
+[requires]
+python_version = "3.6"
