@@ -21,6 +21,8 @@ setup(
     author="Joe Drago",
     author_email="joedrago@gmail.com",
     packages=find_packages(exclude=["contrib", "docs", "tests"]),
+    license='BSD',
+    entry_points={"console_scripts": ["hellopy = hellopy.main:main"]},
     install_requires=["cowsay==2.0.3"],
     extras_require={"dev": []},
     dependency_links=[],
