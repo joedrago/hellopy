@@ -1,9 +1,10 @@
 [[source]]
-name = "hellopy"
-url = "https://github.com/joedrago/hellopy"
+name = "pypi"
+url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pipenv-setup = "*"
 
 [packages]
 cowsay = "*"
